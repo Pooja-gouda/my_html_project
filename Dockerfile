@@ -5,4 +5,4 @@ FROM httpd:latest
 MAINTAINER "poojagoudainamati@gmail.com"
 
 # copy the our templatemo_580_woox_travel application file from source to destination httpd conatiner location 
-COPY  ./templatemo_580_woox_travel/* /usr/local/apache2/htdocs/
+COPY  ./templatemo_580_woox_travel/ /usr/local/apache2/htdocs/
